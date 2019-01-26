@@ -1,0 +1,299 @@
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #729d39;
+  padding-top: 5rem;
+}
+
+h3 {
+  color: #729d39;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* headlines */
+.headline-flex {
+  width: 90%;
+  padding-left: 3rem;
+}
+
+.headline-flex2 {
+  width: 90%;
+  padding-left: 3rem;
+  padding-top: 10rem;
+}
+
+.headline-flex3 {
+  width: 90%;
+  padding-left: 3rem;
+  padding-top: 8rem;
+}
+
+.headlines {
+  padding-top: 0;
+}
+
+#headline-1 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#headline-2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#headline-3 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+/* navbar */
+#navbar {
+  background-color: #151515;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+/* features section */
+#features {
+  padding: auto% 15%;
+  padding-top: 20px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #151515;
+}
+
+.icon:hover {
+  color: #729d39;
+}
+
+/* Newsletter Subscription Form  */
+.subscribe-area {
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.subscribe-text span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.subscribe-text h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+
+.subscribe-wrapper {
+  overflow: hidden;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.subscribe-form {}
+
+.subscribe2-wrapper .subscribe-form input {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 300;
+  height: 57px;
+  margin-right: 17px;
+  padding-left: 35px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.subscribe2-wrapper .subscribe-form button {
+  background: #ffff;
+  border: none;
+  border-radius: 30px;
+  color: #4b5d73;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 18px 46px;
+  transition: all 0.3s ease 0s;
+}
+
+.subscribe2-wrapper .subscribe-form button i {
+  font-size: 18px;
+  padding-left: 5px;
+}
+/* Newsletter Subscription Form End  */
+
+/* Our Team */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#team {
+  background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #108d6f;
+  border-color: #108d6f;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #729d39;
+  border-color: #729d39;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #729d39;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#team .card {
+  border: none;
+  background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.frontside {
+  position: relative;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.backside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 1s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 1s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+  min-height: 312px;
+}
+
+.backside .card a {
+  font-size: 18px;
+  color: #729d39 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+  color: #729d39 !important;
+}
+
+.frontside .card .card-body img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
