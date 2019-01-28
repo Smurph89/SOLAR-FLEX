@@ -3,17 +3,21 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
   text-align: center;
-  color: #729d39;
+  color: #f25311;
   padding-top: 5rem;
 }
 
 h3 {
-  color: #729d39;
+  color: #f25311;
 }
 
 p {
   color: #8f8f8f;
 }
+/* footer */
+ footer{
+   background-color: #212121;
+ }
 
 .container-fluid {
   padding: 3% 15%;
@@ -46,7 +50,6 @@ p {
   font-size: 2rem;
   line-height: 1.5;
   text-align: center;
-  padding-top: 4rem;
 }
 
 #headline-2 {
@@ -76,6 +79,7 @@ p {
 #features {
   padding: auto% 15%;
   padding-top: 20px;
+  background-color: #3c4f65;
 }
 
 .feature-box {
@@ -89,12 +93,12 @@ p {
 }
 
 .icon:hover {
-  color: #729d39;
+  color: #f25311;
 }
 
 /* Newsletter Subscription Form  */
 .subscribe-area {
-  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  background-image: linear-gradient(to top, #212121 0%, #3c4f65 100%);
 }
 
 .pb-50 {
@@ -172,7 +176,7 @@ p {
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 #team {
-  background: #eee !important;
+  background: #fff !important;
 }
 
 .btn-primary:hover,
@@ -185,8 +189,8 @@ p {
 
 .btn-primary {
   color: #fff;
-  background-color: #729d39;
-  border-color: #729d39;
+  background-color: #000000;
+  border-color: #ffc60b;
 }
 
 section {
@@ -195,7 +199,7 @@ section {
 
 section .section-title {
   text-align: center;
-  color: #729d39;
+  color: #000000;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
@@ -284,12 +288,12 @@ section .section-title {
 
 .backside .card a {
   font-size: 18px;
-  color: #729d39 !important;
+  color: #000000 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-  color: #729d39 !important;
+  color: #000000 !important;
 }
 
 .frontside .card .card-body img {
