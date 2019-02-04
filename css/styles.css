@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Montserrat";
+  font-family: 'Permanent Marker', cursive;
   font-size: 3rem;
   line-height: 1.5;
   text-align: center;
@@ -8,16 +8,18 @@ h1 {
 }
 
 h3 {
+  font-family: 'Permanent Marker', Ubuntu;
   color: #f25311;
 }
 
 p {
   color: #8f8f8f;
 }
+
 /* footer */
- footer{
-   background-color: #212121;
- }
+footer {
+  background-color: #212121;
+}
 
 .container-fluid {
   padding: 3% 15%;
@@ -43,6 +45,11 @@ p {
 
 .headlines {
   padding-top: 0;
+}
+
+#carousel {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #headline-1 {
@@ -75,6 +82,7 @@ p {
   padding-top: 0;
 }
 
+/* school icons  */
 /* features section */
 #features {
   padding: auto% 15%;
@@ -170,8 +178,8 @@ p {
   font-size: 18px;
   padding-left: 5px;
 }
-/* Newsletter Subscription Form End  */
 
+/* Newsletter Subscription Form End  */
 /* Our Team */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
