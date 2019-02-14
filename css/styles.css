@@ -48,8 +48,7 @@ footer {
 }
 
 #carousel {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 1rem;
 }
 
 #headline-1 {
@@ -308,4 +307,8 @@ section .section-title {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+.you {
+  text-align: center;
 }
